@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #343a40;
+            margin-top: 20px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 1px solid #dee2e6;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #343a40;
+            color: white;
+        }
+        td {
+            background-color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #dee2e6;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>신기한 음료 찜</h1>
+    <hr>
+    <table>
+        <tr>
+            <th>선택</th>
+            <th>이름</th>
+            <th>사진</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="drink" value="water"></td>
+            <td>죠리퐁 카페라떼</td>
+            <td><img src="img/tlsrl1.png" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="drink" value="juice"></td>
+            <td>카라멜콘 땅콩 카페라떼</td>
+            <td><img src="img/tlsrl2.png" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="drink" value="tea_coffee"></td>
+            <td>김치 라무네</td>
+            <td><img src="img/tlsrl3.jpg" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="drink" value="soda"></td>
+            <td>타코야끼 라무네</td>
+            <td><img src="img/tlsrl4.jpg" width="100" height="100"></td>
+        </tr>
+    </table>
+</body>
+</html>
